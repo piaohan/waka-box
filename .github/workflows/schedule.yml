@@ -2,9 +2,6 @@ name: Update gist with WakaTime stats
 on:
   schedule:
     - cron: "0 */1 * * *"
-  push:
-    branches: 
-      - develop
 jobs:
   update-gist:
     runs-on: ubuntu-latest
